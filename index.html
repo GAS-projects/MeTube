@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MeTube</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>MeTube</h1>
+    <h3>～youtube再生プレイヤー～</h3>
+    <pre>このサイトはyoutubeアプリを開かずとも視聴できるサイトです。<br>下の入力フォームに見たい動画のURLを張り付けてください。<br>"https://"は省略してもかまいません。</pre>
+    <br>
+    <input type="url" id="youtubeURL_input">
+    <input type="button" value="確定" onclick="showYoutube()">
+    <br>
+    <iframe width="400" height="225" id="youtubeURL_output" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <pre>(ver.1)</pre>
+</body>
+</html>
