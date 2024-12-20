@@ -2,8 +2,8 @@
     display:none;
 }
 .youtubePlayForm{
-    width:560;
-    height:315;
+    width:"560";
+    height:"315";
 }
 
 @media screen and (max-width:768px){
@@ -11,7 +11,7 @@
         display:block;
     }
     .youtubePlayForm{
-        width:320;
-        height:180;
+        width:"320";
+        height:"180";
     }
 }
