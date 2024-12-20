@@ -10,5 +10,6 @@ function showYoutube(){
         url = url.substr(url.indexOf("=") + 1,11);
     }
     document.getElementById('youtubeURL_output').src = "https://www.youtube.com/embed/" + url;
+    document.getElementById('youtubeURL_output_mobile').src = "https://www.youtube.com/embed/" + url;
     console.log(url);
 }
