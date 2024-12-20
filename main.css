@@ -1,7 +1,7 @@
 .ifDevice{
     display:none;
 }
-.youtubePlayForm{
+iframe{
     width:"560";
     height:"315";
 }
@@ -10,7 +10,7 @@
     .ifDevice{
         display:block;
     }
-    .youtubePlayForm{
+    iframe{
         width:"320";
         height:"180";
     }
