@@ -1,17 +1,9 @@
 .ifDevice{
     display:none;
 }
-iframe{
-    width:"560px";
-    height:"315px";
-}
 
 @media screen and (max-width:768px){
     .ifDevice{
         display:block;
-    }
-    iframe{
-        width:"320px";
-        height:"180px";
     }
 }
