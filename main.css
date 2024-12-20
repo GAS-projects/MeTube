@@ -1,9 +1,21 @@
 .ifDevice{
     display:none;
 }
+.pcForm{
+    display:block;
+}
+.mobileForm{
+    display:none;
+}
 
 @media screen and (max-width:768px){
     .ifDevice{
+        display:block;
+    }
+    .pcForm{
+        display:none;
+    }
+    .mobileForm{
         display:block;
     }
 }
