@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>MeTube</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
 <body>
     <h1>MeTube</h1>
     <h3>～youtube再生プレイヤー～</h3>
-    <pre>このサイトはyoutubeアプリを開かずとも視聴できるサイトです。<br>下の入力フォームに見たい動画のURLを張り付けてください。<br>"https://"は省略してもかまいません。</pre>
+    <pre>このサイトはyoutubeアプリを開かずとも<br class="ifDevice">動画を視聴できるサイトです。<br>下の入力フォームに見たい動画のURLを張り付けてください。<br>"https://"は省略してもかまいません。</pre>
     <br>
     <input type="url" id="youtubeURL_input">
     <input type="button" value="確定" onclick="showYoutube()">

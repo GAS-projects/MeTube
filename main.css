@@ -1,0 +1,9 @@
+.ifDevice{
+    display:none;
+}
+
+@media screen and (max-width:768px){
+    .ifDevice{
+        display:block;
+    }
+}
